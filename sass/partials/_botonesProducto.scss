@@ -1,0 +1,138 @@
+/*BOTONES DEL MENU DE PRODUCTOS*/
+.boton{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background: white;
+    color: #043140;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    position: relative;
+    overflow: hidden;
+    span{
+        position: relative;
+        z-index: 2;
+        transition: .3s ease all;
+    }
+    .uno{
+        &:hover{
+            background: #336571;
+            color: white;
+            &::after{
+                transform: scale(225);
+                background: #3f7e8d;
+            }
+                }
+        &::after{
+            content: "";
+            width: 1px;
+            height: 1px;
+            background: none;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transition: .3s ease-in-out all;
+            border-radius: 100px;
+            transform-origin: center;
+            }
+        }
+    .dos{
+        &:hover{
+            background: #20744C;
+            color: white;
+            &::after{
+                transform: scale(225);
+                background: #20744C;
+            }
+                }
+            &::after{
+            content: "";
+            width: 1px;
+            height: 1px;
+            background: none;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transition: .3s ease-in-out all;
+            border-radius: 100px;
+            transform-origin: center;
+            }
+        }
+    .tres{
+        &:hover{
+            background: #17647b;
+            color: white;
+            &::after{
+                transform: scale(225);
+                background: #1D7E9C;
+            }
+                }
+            &::after{
+            content: "";
+            width: 1px;
+            height: 1px;
+            background: none;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transition: .3s ease-in-out all;
+            border-radius: 100px;
+            transform-origin: center;
+            }
+        }
+    .cuatro{
+        &:hover{
+            background: #5f1771;
+            color: white;
+            &::after{
+                transform: scale(225);
+                background: #8A23A4;
+            }
+                }
+            &::after{
+            content: "";
+            width: 1px;
+            height: 1px;
+            background: none;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transition: .3s ease-in-out all;
+            border-radius: 100px;
+            transform-origin: center;
+            }
+        }
+    .cinco{
+        &:hover{
+            background: #8c822e;
+            color: white;
+            &::after{
+                transform: scale(225);
+                background: #c7b82c;
+            }
+                }
+            &::after{
+            content: "";
+            width: 1px;
+            height: 1px;
+            background: none;
+            position: absolute;
+            z-index: 1;
+            top: 50%;
+            left: 50%;
+            transition: .3s ease-in-out all;
+            border-radius: 100px;
+            transform-origin: center;
+            }
+        }
+}

@@ -1,0 +1,75 @@
+//CONTADOR DE RED GLOBAL TAICHI
+.red__global{
+    justify-content: center;
+    align-items: center;
+    display: row;
+    margin: 2%;
+}
+.contenedor__contador{
+    display: flex;
+    height: 75px;
+    width: 150px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg);
+}
+.color__fondo{
+    height: 0%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;  
+}
+.numero__paises{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #555;
+    position: absolute;
+    mix-blend-mode: screen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-180deg);
+}
+.contenedor__contador__dos{
+    display: flex;
+    height: 75px;
+    width: 150px;
+    position: relative;
+    transform: rotate(180deg);
+    justify-content: center;
+    align-items: center;
+}
+.color__fondo__equipos{
+    height: 0%;
+    width: 100%;
+    background-color: blue;
+    position: absolute;  
+}
+.numero__equipos{
+    padding: 0;
+    margin: 0;
+    font-size: 4rem;
+    font-weight: bold;
+    color: #555;
+    position: absolute;
+    mix-blend-mode: screen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-180deg);
+}
+.texto_globales{
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    color: #195D6E;
+    font-size: 1.3rem;
+    bottom: 50%;
+    text-align: center;
+    font-weight: bold;
+}

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taichi Holdings Colombia</title>
+    <!--BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"> 
+    <!--JAVA BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+</head>
+<body>
+    <!--WHATSAPP-->
+    <section>
+        <a href="https://api.whatsapp.com/send?phone=573160405630" class="btn-wsp" target="_blank">
+            <img class="iconoWp" src="./img/whatsapp.png" alt="">
+        </a>
+    </section>
+    <header>
+        <!--BARRA DE NAVEGACION-->
+        <div class="barra_nav ">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logotaichi.png" width="200px" alt=""></a>
+                    <a class="nav-link active" aria-current="page" href="index.html"><img src="./img/homeicon.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#nosotros__link">NOSOTROS</a>
+                    </li>
+                    <li class="nav-item dropdown submenu">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        LINEAS DE PRODUCTO
+                        </a>
+                        <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Medicina Humana</a></li>
+                        <li><a class="dropdown-item" href="#">Medicina Veterinaria</a></li>
+                        <li><a class="dropdown-item " href="#">Odontología</a></li>
+                        <li><a class="dropdown-item" href="#">Simulación</a></li>
+                        <li><a class="dropdown-item" href="#">Soporte técnico</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Contacto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#noticias__link">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto__link">CONTACTO</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+            <section class="banner__image">
+                <div class="row">
+                    <div class="col-lg">
+                        <img class="img-fluid" src="./img/Banner taichi tokyo.png" width="100%" height="100px" alt="Banner">
+                        <p class="texto__banner">Somos una compañia dedicada al comercio internacional</p>
+                    </div> 
+                    </div>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--BOTONES DE MENU DE LINEA DE PRODUCTOS-->
+    <Section class="caja__botones">
+        <div class="row">
+            <div class="col-lg" >
+                <a href="./pages/humano.html" style="text-decoration: none;">
+                <button class="boton uno"><span>Medicina Humana</span></button>
+                </a>    
+            </div>
+            <div class="col-lg">
+                <a href="./pages/veterinario.html"style="text-decoration: none;">
+                <button class="boton dos"><span>Medicina Veterinaria</span></button>
+                </a>
+            </div>
+            <div class="col-lg">
+                <a href="./pages/odontologia.html"style="text-decoration: none;">
+                <button class="boton tres"><span>Odontología</span></button>
+                </a>
+            </div>
+            <div class="col-lg">
+                <a href="./pages/simulacion.html "style="text-decoration: none;">
+                <button class="boton cuatro"><span>Simulación</span></button>
+                </a>
+            </div>
+            <div class="col-lg" >
+                <a href="./pages/soporte.html"style="text-decoration: none;">
+                <button class="boton cinco"><span>Soporte técnico</span></button>
+                </a>
+            </div>
+        </div>
+    </Section>
+    <!--BANNER MAPA-->
+    <section class="banner__image__mapa">
+        <div class="row-lg" >
+            <div class="col-lg">
+            <img class="img-fluid" src="./img/Bannermapa.png" width="100%"  alt="Banner">
+            <img class="img-fluid"id=mapa src="./img/Mapa.png" width="100%" alt="BannerMapa">
+            </div>
+        </div>
+    <!--TEXTO Y CONTADOR-->
+    <section>
+        <div class="col-lg "> 
+            <div class="row red__global">
+                <div class="col-lg 2 texto_globales">
+                    <p>Estamos en </p>
+                </div>
+                <div class="col-lg 2 contenedor__contador">
+                    <div class="col-lg color__fondo" id="color__fondo">
+                    </div>
+                    <div class="col-lg numero__paises" id="numero__paises"></div>
+                </div>
+                <div class="col-lg 2 texto_globales">
+                    <p>Países del mundo </p>
+                </div>
+                <div class="col-lg 2 texto_globales">
+                    <p>Más de </p>
+                </div>
+                <div class="col-lg 2 contenedor__contador__dos">
+                    <div class="col-lg color__fondo__equipos" id="color__fondo__equipos"></div>
+                    <div class="col-lg numero__equipos" id="numero__equipos"></div>
+                </div>
+                <div class="col-lg texto_globales">
+                    <p>equipos instalados en latinoamerica </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!--NOSOTROS-->
+        <section class="nosotros__sec">
+            <a name="nostros__link" id="nosotros__link"></a>
+            <div class="row text-center nosotros___text">
+                <h2 class="titulos">Nosotros</h2>
+            </div>
+            <div class="row text-justify nosotros">
+                <p>Somos una compañía trasnacional japonesa especializada  en el comercio internacional, enfocada en brindar soluciones médicas en diferentes áreas, con productos de alta tecnología y un amplio portafolio al servicio de Colombia y el mundo. </p>
+            </div>
+        </section>  
+            <!--TARJETAS DE IMAGENES PRODUCTOS DESTACADOS-->
+    <section>
+        <h2 class="titulos">Productos destacados</h2>
+        <div class="container__card">
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/img/Sonoeye1.jpeg);">
+                        <div class="bg"></div>
+                        <div class="body__card__front">
+                            <h1>Ecógrafos de mano, Doppler color, Modo M y Doppler pulsado.
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card__back">
+                            <h1>SonoEye</h1>
+                            <p>CHISON SonoEye puede ayudar a proporcionar una atención de alta calidad al paciente en cualquier lugar. Cuenta con un diseño adaptable que pasa de la tablet al teléfono móvil, lo que aumenta la portabilidad, y hace posible trabajar junto a los médicos de paciente a paciente todo el tiempo.</p>
+                            <input type="button"    value="Leer mas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/img/ankeCT.jpeg);">
+                        <div class="bg"></div>
+                        <div class="body__card__front">
+                            <h1>Equipo de tomografia computarizada (TAC) 
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card__back">
+                            <h1>Anatom 32/64 FIT</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In necessitatibus impedit atque! Asperiores, velit voluptate numquam cumque voluptates dolores, mollitia dicta placeat quos incidunt quisquam accusamus nam totam iste. Officiis?</p>
+                            <input type="button"    value="Leer mas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/img/endoscopioportatil.jpeg);">
+                        <div class="bg"></div>
+                        <div class="body__card__front">
+                            <h1>Equipo de endoscopia veterinaria portatil
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card__back">
+                            <h1>Serie EC VET</h1>
+                            <p> Con diámetro delgado y angulación de 4 vías, los endoscopios veterinarios de la serie EC son ideales para la boncoscopia, rinoscopia, esófago, cuerpos extraños, gastroscopia, cistoscopia, vaginoscopia, etc. de animales de compañía.</p>
+                            <input type="button"    value="Leer mas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(/img/zvent2.jpeg);">
+                        <div class="bg"></div>
+                        <div class="body__card__front">
+                            <h1>Ventilador de transporte
+                            </h1>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card__back">
+                            <h1>Z-VENT</h1>
+                            <p>Trasladar a pacientes con dificultad respiratoria dentro de un hospital puede ser complicado. Es difícil cambiar de los dispositivos UCI a ambús u otros dispositivos para intentar mantener el nivel de oxígeno adecuado de un paciente.</p>
+                            <input type="button"    value="Leer mas">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h2 class="titulos">Noticias</h2>
+    <!--NOTICIAS-->
+    <section class="post__list">
+        <div class="content row-lg">
+            <article class="post col-lg">
+                <div class="post-header">
+                    <div class="post-img-1"></div>
+                </div>
+                <div class="post__body">
+                    <span>12 Novimebre, 2022 | Taller</span>
+                    <h2>Taller de ultrasonido</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut animi modi quibusdam. Expedita, ad impedit culpa est maxime corrupti officia voluptate, quas, odio natus neque.</p>
+                    <a href="#" class="post-link">Leer mas...</a>
+                </div>
+            </article>
+            <article class="post col-lg">
+                <div class="post-header">
+                    <div class="post-img-2"></div>
+                </div>
+                <div class="post__body">
+                    <span>10 Novimebre, 2022 | Muestra</span>
+                    <h2>Cosas diferentes</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut animi modi quibusdam. Expedita, ad impedit culpa est maxime corrupti officia voluptate, quas, odio natus neque.</p>
+                    <a href="#" class="post-link">Leer mas...</a>
+                </div>
+            </article>
+            <article class="post col-lg">
+                <div class="post-header">
+                    <div class="post-img-3"></div>
+                </div>
+                <div class="post__body">
+                    <span>15 Novimebre, 2022 |Comercial</span>
+                    <h2>Comercial</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut animi modi quibusdam. Expedita, ad impedit culpa est maxime corrupti officia voluptate, quas, odio natus neque.</p>
+                    <a href="#" class="post-link">Leer mas...</a>
+                </div>
+            </article>
+        </div>
+    </section>
+        <!--TEXTO DESLIZANTE TAICHI-->
+        <div class="row">
+            <div class="col-lg">
+                <div class="texto__deslizante container-fluid">
+                    <p>
+                        Taichi holdings sigue
+                    </p>
+                    <ul class="palabras">
+                    <li>Innovando</li>
+                    <li>Creciendo</li>
+                    <li>Impactando  </li>
+                    </ul>
+                    <p>al rededor del mundo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a name="contacto__link" id="contacto__link"></a>
+        <section class="footer_info">
+            <div class="row">
+                <div class="col-lg iconos"> 
+                    <p>Síguenos:</p>
+                    <img src="./img/facebook.png" alt="">
+                    <img src="./img/youtube.png" alt="">
+                    <img src="./img/instagram.png" alt="">
+                    <img src="./img/linkedin.png" alt="">
+                </div>
+                <div class="col-lg iconos_uno"> 
+                    <p>Datos de contacto:</p>
+                    <p><img src="./img/llamada-telefonica.png" alt="">
+                    +57 601-7559348</p>
+                    <p><img src="./img/ubicacion.png" alt="">
+                        Cra. 15 No. 93A-62 OF: 304-305</p>
+                    <p><img src="./img/email.png" alt="">
+                        info@anabas.co.jp</p>
+                </div>
+                <div class="col-lg footer__logo"> 
+                    <img src="./img/logotaichi.png" width=300px alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+</html>

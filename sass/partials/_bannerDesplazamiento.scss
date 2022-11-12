@@ -1,0 +1,31 @@
+/*BANNER TEXTO CON DESPLAZAMIENTO*/
+.texto__deslizante{
+    display:flex;
+    width: 100%;
+    height: 45px;
+    font-size: 2rem;
+    line-height: 40px;
+    margin: 20px;
+    justify-content: center;
+    overflow: hidden;
+}
+.palabras{
+    list-style: none;
+    padding-left: 10px;
+    animation: cambiar 6s infinite;
+    color: #195D6E;
+    margin: 30px;
+    text-shadow: 2px 1px 0 gray;
+}
+/*TRANSISIONES DE PALABRAS*/
+@keyframes cambiar {
+    0%{margin-top: 0;}
+    20%{margin-top: 0;}
+    25%{margin-top: -40px;}
+    50%{margin-top: -40px;}
+    55%{margin-top: -80px;}
+    80%{margin-top: -80px;}
+    85%{margin-top: -40px;}
+    95%{margin-top: -40px;}
+    100%{margin-top: 0;}
+}

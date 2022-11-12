@@ -1,0 +1,23 @@
+/*BANNER MAPA*/
+.banner__image__mapa img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center center;
+    background-size: cover;
+    height: 400px;
+}
+#mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -350px;
+    width: 650px;
+    padding: 20px;
+    position: relative;
+    left: 20%;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+}
+
+
+

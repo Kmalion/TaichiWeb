@@ -1,0 +1,69 @@
+/*RESOLUCION PARA MOVIL*/
+@media(max-width: 992px){
+    .footer__logo{
+        display: none;
+    }
+    .texto__equipos{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #17647b;
+        font-size: 1.5rem;
+        margin-top: 40px;
+        position: relative;
+    }
+    .texto__deslizante{
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+    .iconos {
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+        img{
+        width: 40px;
+        height: 40px;
+        }
+    }
+    .iconos_uno{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 14px;
+        p{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        font-size: 12px;
+        }
+        img{
+            width: 32px;
+            height: 32px;
+            }
+        }
+    .noticias{
+        border-radius: 0;
+        width: 100%;
+    }
+    /*CARRRUSEL*/
+    .item img{
+        height: 500px;
+    }
+    .nosotros 
+        {
+            p{
+        padding: 0%;
+        text-align: justify;}
+        }
+    #mapa 
+    { margin-left: -100px;
+    margin-top: 40px;
+    img{
+        top: auto;
+        width: auto;
+        left: 10px;
+    }
+    }
+
+}
