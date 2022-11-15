@@ -1,0 +1,67 @@
+//BANNER
+.banner__image{
+    .banner__producto{
+    height: 200px;
+    }
+}
+
+//Producto solo
+#prodetails{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    .single-pro-image{
+        width: 40%;
+        margin-right: 50px;
+        img{
+            box-shadow: 1px 1px 30px -5px #7c8081;
+            border-radius: 10px;
+        }
+    }
+    .single-pro-details{
+        width: 50%;
+        padding: 0px;
+        h4{
+            padding: 20px 0 10px 0;
+            color: #195D6E;
+        }
+        h2{
+            font-size: 25px;
+        }
+        h3{
+            font-size: 20px;
+        }
+        .boton__general{
+        padding: 10px 40px;
+        margin-top: 5px;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background: #195D6E;
+        box-shadow: 1px 1px 30px -5px #17647b;
+        border-radius: 10px;
+        transition: box-shadow 600ms;
+        &:hover{
+            box-shadow: 1px 1px 30px 0px #2d92b1;
+            }
+        }
+        span{
+            padding: 10px 20px 10px 0;
+            display: flex;
+            text-align: justify;
+            color: #5b5e5e;
+        }
+    }
+}
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    .small-img-col{
+        flex-basis: 24%;
+        cursor: pointer;
+        box-shadow: 1px 1px 30px -5px #7c8081;
+    }
+}
