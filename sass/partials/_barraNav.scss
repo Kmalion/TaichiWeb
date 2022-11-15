@@ -35,6 +35,12 @@ $color-degrado-principal:linear-gradient(90deg, #043140, #195D6E );
         font-size: large;
         transition: all 300ms ease;
     }
+    .dropdown-item{
+            &:hover{
+                background-color: #3f7e8d;
+                color: white;
+            }
+    }
 }
 /*IMAGEN DEL BANNER*/
 .banner__image{
