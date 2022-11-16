@@ -103,7 +103,7 @@ html {
   display: flex;
   color: #555;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 20px;
   font-weight: bold;
 }
 
@@ -207,15 +207,15 @@ html {
   z-index: 2;
   transition: 0.3s ease all;
 }
-.boton .uno:hover {
+.boton.uno:hover {
   background: #336571;
   color: white;
 }
-.boton .uno:hover::after {
+.boton.uno:hover::after {
   transform: scale(225);
   background: #3f7e8d;
 }
-.boton .uno::after {
+.boton.uno::after {
   content: "";
   width: 1px;
   height: 1px;
@@ -228,15 +228,15 @@ html {
   border-radius: 100px;
   transform-origin: center;
 }
-.boton .dos:hover {
+.boton.dos:hover {
   background: #20744C;
   color: white;
 }
-.boton .dos:hover::after {
+.boton.dos:hover::after {
   transform: scale(225);
   background: #20744C;
 }
-.boton .dos::after {
+.boton.dos::after {
   content: "";
   width: 1px;
   height: 1px;
@@ -249,15 +249,15 @@ html {
   border-radius: 100px;
   transform-origin: center;
 }
-.boton .tres:hover {
+.boton.tres:hover {
   background: #17647b;
   color: white;
 }
-.boton .tres:hover::after {
+.boton.tres:hover::after {
   transform: scale(225);
   background: #1D7E9C;
 }
-.boton .tres::after {
+.boton.tres::after {
   content: "";
   width: 1px;
   height: 1px;
@@ -270,15 +270,15 @@ html {
   border-radius: 100px;
   transform-origin: center;
 }
-.boton .cuatro:hover {
+.boton.cuatro:hover {
   background: #5f1771;
   color: white;
 }
-.boton .cuatro:hover::after {
+.boton.cuatro:hover::after {
   transform: scale(225);
   background: #8A23A4;
 }
-.boton .cuatro::after {
+.boton.cuatro::after {
   content: "";
   width: 1px;
   height: 1px;
@@ -291,15 +291,15 @@ html {
   border-radius: 100px;
   transform-origin: center;
 }
-.boton .cinco:hover {
+.boton.cinco:hover {
   background: #8c822e;
   color: white;
 }
-.boton .cinco:hover::after {
+.boton.cinco:hover::after {
   transform: scale(225);
   background: #c7b82c;
 }
-.boton .cinco::after {
+.boton.cinco::after {
   content: "";
   width: 1px;
   height: 1px;
@@ -311,6 +311,10 @@ html {
   transition: 0.3s ease-in-out all;
   border-radius: 100px;
   transform-origin: center;
+}
+
+.red__mundo {
+  background: rgb(217, 235, 235);
 }
 
 .red__global {
@@ -399,6 +403,8 @@ html {
   padding: 5%;
   text-align: justify;
   font-size: 20px;
+  background: rgb(217, 235, 235);
+  color: #195D6E;
 }
 
 /*BANNER TEXTO CON DESPLAZAMIENTO*/
