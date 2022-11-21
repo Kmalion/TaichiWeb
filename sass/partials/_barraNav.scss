@@ -36,6 +36,7 @@ $color-degrado-principal:linear-gradient(90deg, #043140, #195D6E );
         transition: all 300ms ease;
     }
     .dropdown-item{
+            color: #555;
             &:hover{
                 background-color: #3f7e8d;
                 color: white;

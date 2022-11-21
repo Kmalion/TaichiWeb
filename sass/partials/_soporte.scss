@@ -1,0 +1,51 @@
+.boton__general{
+    display: flex;
+    justify-content: center;
+    padding: 10px 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background: #195D6E;
+    box-shadow: 1px 1px 30px -5px #17647b;
+    border-radius: 10px;
+    transition: box-shadow 600ms;
+    &:hover{
+        box-shadow: 1px 1px 30px 0px #2d92b1;
+    }
+}
+.boton__cotiza{
+    display: flex;
+    justify-content: center;
+}
+.servicios{
+    color: gray;
+    margin: auto;
+    padding: 30px;
+}
+.p{
+    color: gray;
+}
+.serv__equipos{
+    text-decoration: none;
+    color: gray;
+    margin-top: 10px;
+    padding: 30px;
+    h5{
+        color: #17647b;}
+        margin-bottom: 10px;
+    li{
+        text-decoration: none;
+        list-style: none;
+    }
+}
+.icono_h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto_serv{
+    color: gray;
+}
