@@ -1,7 +1,11 @@
 /*RESOLUCION PARA MOVIL*/
 @media (max-width: 992px) {
-  .footer__logo {
-    display: none;
+  .caja__datos {
+    padding-top: 0px;
+    text-align: center;
+  }
+  .caja__datos p {
+    color: rgb(150, 178, 198);
   }
   .texto__equipos {
     justify-content: center;
@@ -16,31 +20,6 @@
     margin: 0;
     padding: 0;
     font-size: 0.5rem;
-  }
-  .iconos {
-    text-align: center;
-    margin: 0;
-    padding: 5px;
-  }
-  .iconos img {
-    width: 40px;
-    height: 40px;
-  }
-  .iconos_uno {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 14px;
-  }
-  .iconos_uno p {
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-    font-size: 12px;
-  }
-  .iconos_uno img {
-    width: 32px;
-    height: 32px;
   }
   .noticias {
     border-radius: 0;
@@ -677,29 +656,13 @@ html {
   display: flex;
   background-image: linear-gradient(90deg, #043140, #195D6E);
   width: 100%;
-  height: 250px;
+  height: 100%;
   color: white;
+  margin-top: 0px;
 }
 
-.iconos {
-  margin-top: 2%;
-  margin-left: 10%;
-}
-.iconos img {
-  width: 10%;
-}
-
-.iconos_uno {
-  justify-items: center;
-  margin-top: 2%;
-  margin-left: 5%;
-}
-.iconos_uno img {
-  width: 10%;
-}
-
-.footer__logo {
-  margin-top: 5%;
+.caja__datos {
+  color: rgb(150, 178, 198);
 }
 
 #product1 {
@@ -829,7 +792,7 @@ html {
 }
 
 .form-register {
-  width: 800px;
+  width: 80vw;
   background-image: linear-gradient(90deg, #043140, #195D6E);
   padding: 30px;
   margin: auto;
@@ -839,8 +802,8 @@ html {
   color: white;
   box-shadow: 1px 1px 30px -5px #17647b;
 }
-.form-register .formulario {
-  width: 100%;
+.form-register .form-control {
+  margin-bottom: 20px;
 }
 
 .controls {
@@ -852,7 +815,7 @@ html {
   border: 1px solid #195D6E;
 }
 
-.boton__enviar {
+.btn-primary {
   width: 100%;
   border: none;
   padding: 12px;

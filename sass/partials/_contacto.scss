@@ -1,6 +1,6 @@
 $color-degrado-principal:linear-gradient(90deg, #043140, #195D6E );
 .form-register{
-    width: 800px;
+    width: 80vw;
     background-image:$color-degrado-principal;
     padding: 30px;
     margin: auto;
@@ -9,10 +9,9 @@ $color-degrado-principal:linear-gradient(90deg, #043140, #195D6E );
     border-radius: 20px;
     color: white;
     box-shadow: 1px 1px 30px -5px #17647b;
-    .formulario{
-        width: 100%;
+    .form-control{
+        margin-bottom: 20px;
     }
-    
 }
 .controls{
     width: 100%;
@@ -22,7 +21,7 @@ $color-degrado-principal:linear-gradient(90deg, #043140, #195D6E );
     margin-bottom: 16px;
     border: 1px solid #195D6E;
 }
-.boton__enviar{
+.btn-primary{
     width: 100%;
     border: none;
     padding: 12px;
