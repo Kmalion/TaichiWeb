@@ -296,7 +296,7 @@ html {
 }
 
 .red__mundo {
-  background: rgb(238, 243, 243);
+  background: rgb(248, 252, 252);
 }
 
 .red__global {
@@ -385,7 +385,7 @@ html {
   padding: 5%;
   text-align: justify;
   font-size: 20px;
-  background: rgb(238, 243, 243);
+  background: rgb(248, 252, 252);
   color: #195D6E;
 }
 
@@ -412,7 +412,7 @@ html {
 
 .frase {
   display: flex;
-  justify-content: center;
+  justify-content: block;
   width: 100%;
   margin: 20px;
 }
@@ -669,7 +669,7 @@ html {
 }
 
 .caja__datos {
-  color: rgb(164, 206, 235);
+  color: #10a1ae;
 }
 
 .frase {
