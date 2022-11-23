@@ -410,6 +410,13 @@ html {
   text-shadow: 2px 1px 0 gray;
 }
 
+.frase {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+
 /*TRANSISIONES DE PALABRAS*/
 @keyframes cambiar {
   0% {
@@ -653,16 +660,24 @@ html {
 }
 
 .footer_info {
-  display: flex;
   background-image: linear-gradient(90deg, #043140, #195D6E);
   width: 100%;
   height: 100%;
   color: white;
-  margin-top: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .caja__datos {
-  color: rgb(150, 178, 198);
+  color: rgb(164, 206, 235);
+}
+
+.frase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+  font-size: 25px;
 }
 
 #product1 {
