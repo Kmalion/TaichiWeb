@@ -296,7 +296,7 @@ html {
 }
 
 .red__mundo {
-  background: rgb(217, 235, 235);
+  background: rgb(238, 243, 243);
 }
 
 .red__global {
@@ -385,7 +385,7 @@ html {
   padding: 5%;
   text-align: justify;
   font-size: 20px;
-  background: rgb(217, 235, 235);
+  background: rgb(238, 243, 243);
   color: #195D6E;
 }
 
@@ -896,6 +896,19 @@ html {
 }
 
 .texto_serv {
+  color: gray;
+}
+
+.imagen__cuerpo img {
+  border-radius: 30px;
+}
+
+.texto__cuerpo h3 {
+  color: #17647b;
+}
+.texto__cuerpo p {
+  margin: 20px;
+  text-align: justify;
   color: gray;
 }
 
