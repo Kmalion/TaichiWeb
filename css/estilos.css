@@ -38,13 +38,8 @@
     width: auto;
     left: 10px;
   }
-  .nosotros {
-    background: red;
-  }
   .nosotros p {
     font-size: 5px;
-    color: red;
-    background: red;
   }
 }
 * {
