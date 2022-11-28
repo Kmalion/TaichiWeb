@@ -4,7 +4,7 @@
         padding-top: 0px;
         text-align: center;
         p{
-            color: rgb(150, 178, 198);
+            color: #10a1ae;
         }
     }
     .texto__equipos{
@@ -29,12 +29,6 @@
     .item img{
         height: 500px;
     }
-    .nosotros 
-        {
-            p{
-        padding: 0%;
-        text-align: justify;}
-        }
     #mapa 
     { margin-left: -90px;
     margin-top: 40px;
@@ -42,6 +36,14 @@
         top: auto;
         width: auto;
         left: 10px;
+        }
+    }
+    .nosotros{
+        background: red;
+        p{
+        font-size: 5px;
+        color: red;
+        background: red
         }
     }
 

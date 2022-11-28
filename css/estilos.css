@@ -5,7 +5,7 @@
     text-align: center;
   }
   .caja__datos p {
-    color: rgb(150, 178, 198);
+    color: #10a1ae;
   }
   .texto__equipos {
     justify-content: center;
@@ -29,10 +29,6 @@
   .item img {
     height: 500px;
   }
-  .nosotros p {
-    padding: 0%;
-    text-align: justify;
-  }
   #mapa {
     margin-left: -90px;
     margin-top: 40px;
@@ -41,6 +37,14 @@
     top: auto;
     width: auto;
     left: 10px;
+  }
+  .nosotros {
+    background: red;
+  }
+  .nosotros p {
+    font-size: 5px;
+    color: red;
+    background: red;
   }
 }
 * {
