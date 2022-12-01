@@ -381,10 +381,11 @@ html {
 }
 
 .nosotros p {
-  padding: 5%;
+  height: 100px;
+  padding: 2%;
   text-align: justify;
   font-size: 20px;
-  background: rgb(248, 252, 252);
+  background: white;
   color: #195D6E;
 }
 
@@ -575,7 +576,7 @@ html {
 }
 
 .post-img-1 {
-  background: url(../img/taller3.jpeg);
+  background: url(/img/noti1.png);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -583,7 +584,7 @@ html {
 }
 
 .post-img-2 {
-  background: url(../img/kanikat.jpeg);
+  background: url(/img/noti2.png);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -592,7 +593,7 @@ html {
 }
 
 .post-img-3 {
-  background: url(../img/tallerRS.jpeg);
+  background: url(/img/noti3.png);
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -909,6 +910,28 @@ html {
   margin: 20px;
   text-align: justify;
   color: gray;
+}
+
+#button-up {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  border-radius: 50%;
+  font-size: 20px;
+  position: fixed;
+  bottom: 50px;
+  left: 50px;
+  cursor: pointer;
+  border: 2px solid teal;
+  transition: all 300ms ease;
+}
+#button-up:hover {
+  transform: scale(1.1);
+  border-color: rgba(0, 0, 0, 0.5);
 }
 
 /*# sourceMappingURL=estilos.css.map */
